@@ -184,15 +184,4 @@ Error responses:
 └── prisma.config.ts        # Prisma 7 configuration
 ```
 
-## Testing Scenarios
 
-The application supports these test scenarios:
-
-1. **Signup validation errors** - Try empty fields or invalid email
-2. **Login wrong password** - Use incorrect password
-3. **Access protected page without token** - Visit /cart, /orders without login
-4. **Access admin route as normal user** - Login as user, try /admin
-
-## License
-
-MIT
